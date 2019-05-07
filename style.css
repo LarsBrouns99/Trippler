@@ -3,9 +3,9 @@ body {
 }
 .headerLogo {
    height: auto;
-   width: 80%;
-   margin-left: 10%;
-   margin-top: 10%;
+   width: 80vw;
+   margin-left: 10vw;
+   margin-top: 10vh;
 }
 
 p {
