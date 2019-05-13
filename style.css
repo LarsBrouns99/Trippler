@@ -21,12 +21,17 @@ div {
 }
 
 .infoblok {
-    color: #2f3131;    width: 20vw;
+    color: #2f3131;    
+    width: 20vw;
     height: auto;
-    margin-left: 10vw;
+    margin-left: 8.5vw;
     margin-top: 10vh;
     text-align: center;
     border-radius: 25px;
+}
+
+.links  {
+    float: left;
 }
 
 .intro {
