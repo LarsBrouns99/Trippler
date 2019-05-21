@@ -5,8 +5,9 @@ body {
 #headerLogo {
    height: auto;
    width: 80vw;
+   margin: auto;
+   margin-bottom: 5vh;
    margin-left: 10vw;
-   margin-top: 10vh;
 }
 
 p {
@@ -15,32 +16,30 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-div {
+/* div {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2vw;
+    font-size: 2em;
     background-color: #f9ba32;
 
-}
+} */
 
 .container {
-    display: flex;
-    justify-content: center;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 50px;
+    justify-items: center;
     background-color: #426e86;
 }
 
 .infoblok {
-    color: #2f3131;    
-    width: 22vw;
-    height: auto;
-    margin-left: 6vw;
-    margin-right: 5vw;
-    margin-top: 10vh;
+    color: #2f3131;
     text-align: center;
     border-radius: 25px;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    background-color: #f9ba32;
 
-.links  {
-    float: left;
 }
 
 .intro {
